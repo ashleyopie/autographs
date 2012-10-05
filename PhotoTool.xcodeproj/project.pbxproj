@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A980264E161E9EC7009BD152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980264D161E9EC7009BD152 /* UIKit.framework */; };
+		A9802650161E9EC7009BD152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980264F161E9EC7009BD152 /* Foundation.framework */; };
+		A9802652161E9EC7009BD152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9802651161E9EC7009BD152 /* CoreGraphics.framework */; };
+		A9802658161E9EC8009BD152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9802656161E9EC8009BD152 /* InfoPlist.strings */; };
+		A980265A161E9EC8009BD152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9802659161E9EC8009BD152 /* main.m */; };
+		A980265E161E9EC8009BD152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A980265D161E9EC8009BD152 /* AppDelegate.m */; };
+		A9802660161E9EC9009BD152 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A980265F161E9EC9009BD152 /* Default.png */; };
+		A9802662161E9EC9009BD152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9802661161E9EC9009BD152 /* Default@2x.png */; };
+		A9802664161E9EC9009BD152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9802663161E9EC9009BD152 /* Default-568h@2x.png */; };
+		A9802667161E9EC9009BD152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9802666161E9EC9009BD152 /* ViewController.m */; };
+		A980266A161E9EC9009BD152 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9802668161E9EC9009BD152 /* ViewController_iPhone.xib */; };
+		A980266D161E9EC9009BD152 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A980266B161E9EC9009BD152 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9802649161E9EC7009BD152 /* PhotoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A980264D161E9EC7009BD152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A980264F161E9EC7009BD152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9802651161E9EC7009BD152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9802655161E9EC8009BD152 /* PhotoTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoTool-Info.plist"; sourceTree = "<group>"; };
+		A9802657161E9EC8009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9802659161E9EC8009BD152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A980265B161E9EC8009BD152 /* PhotoTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoTool-Prefix.pch"; sourceTree = "<group>"; };
+		A980265C161E9EC8009BD152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A980265D161E9EC8009BD152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A980265F161E9EC9009BD152 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9802661161E9EC9009BD152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9802663161E9EC9009BD152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9802665161E9EC9009BD152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9802666161E9EC9009BD152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9802669161E9EC9009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A980266C161E9EC9009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9802646161E9EC7009BD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980264E161E9EC7009BD152 /* UIKit.framework in Frameworks */,
+				A9802650161E9EC7009BD152 /* Foundation.framework in Frameworks */,
+				A9802652161E9EC7009BD152 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A980263E161E9EC5009BD152 = {
+			isa = PBXGroup;
+			children = (
+				A9802653161E9EC7009BD152 /* PhotoTool */,
+				A980264C161E9EC7009BD152 /* Frameworks */,
+				A980264A161E9EC7009BD152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A980264A161E9EC7009BD152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9802649161E9EC7009BD152 /* PhotoTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A980264C161E9EC7009BD152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A980264D161E9EC7009BD152 /* UIKit.framework */,
+				A980264F161E9EC7009BD152 /* Foundation.framework */,
+				A9802651161E9EC7009BD152 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9802653161E9EC7009BD152 /* PhotoTool */ = {
+			isa = PBXGroup;
+			children = (
+				A980265C161E9EC8009BD152 /* AppDelegate.h */,
+				A980265D161E9EC8009BD152 /* AppDelegate.m */,
+				A9802665161E9EC9009BD152 /* ViewController.h */,
+				A9802666161E9EC9009BD152 /* ViewController.m */,
+				A9802668161E9EC9009BD152 /* ViewController_iPhone.xib */,
+				A980266B161E9EC9009BD152 /* ViewController_iPad.xib */,
+				A9802654161E9EC8009BD152 /* Supporting Files */,
+			);
+			path = PhotoTool;
+			sourceTree = "<group>";
+		};
+		A9802654161E9EC8009BD152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9802655161E9EC8009BD152 /* PhotoTool-Info.plist */,
+				A9802656161E9EC8009BD152 /* InfoPlist.strings */,
+				A9802659161E9EC8009BD152 /* main.m */,
+				A980265B161E9EC8009BD152 /* PhotoTool-Prefix.pch */,
+				A980265F161E9EC9009BD152 /* Default.png */,
+				A9802661161E9EC9009BD152 /* Default@2x.png */,
+				A9802663161E9EC9009BD152 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9802648161E9EC7009BD152 /* PhotoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9802670161E9EC9009BD152 /* Build configuration list for PBXNativeTarget "PhotoTool" */;
+			buildPhases = (
+				A9802645161E9EC7009BD152 /* Sources */,
+				A9802646161E9EC7009BD152 /* Frameworks */,
+				A9802647161E9EC7009BD152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTool;
+			productName = PhotoTool;
+			productReference = A9802649161E9EC7009BD152 /* PhotoTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9802640161E9EC6009BD152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = indianic;
+			};
+			buildConfigurationList = A9802643161E9EC6009BD152 /* Build configuration list for PBXProject "PhotoTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A980263E161E9EC5009BD152;
+			productRefGroup = A980264A161E9EC7009BD152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9802648161E9EC7009BD152 /* PhotoTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9802647161E9EC7009BD152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9802658161E9EC8009BD152 /* InfoPlist.strings in Resources */,
+				A9802660161E9EC9009BD152 /* Default.png in Resources */,
+				A9802662161E9EC9009BD152 /* Default@2x.png in Resources */,
+				A9802664161E9EC9009BD152 /* Default-568h@2x.png in Resources */,
+				A980266A161E9EC9009BD152 /* ViewController_iPhone.xib in Resources */,
+				A980266D161E9EC9009BD152 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9802645161E9EC7009BD152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980265A161E9EC8009BD152 /* main.m in Sources */,
+				A980265E161E9EC8009BD152 /* AppDelegate.m in Sources */,
+				A9802667161E9EC9009BD152 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9802656161E9EC8009BD152 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9802657161E9EC8009BD152 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9802668161E9EC9009BD152 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9802669161E9EC9009BD152 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A980266B161E9EC9009BD152 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A980266C161E9EC9009BD152 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A980266E161E9EC9009BD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A980266F161E9EC9009BD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9802671161E9EC9009BD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTool/PhotoTool-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTool/PhotoTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9802672161E9EC9009BD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTool/PhotoTool-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTool/PhotoTool-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9802643161E9EC6009BD152 /* Build configuration list for PBXProject "PhotoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A980266E161E9EC9009BD152 /* Debug */,
+				A980266F161E9EC9009BD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9802670161E9EC9009BD152 /* Build configuration list for PBXNativeTarget "PhotoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9802671161E9EC9009BD152 /* Debug */,
+				A9802672161E9EC9009BD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9802640161E9EC6009BD152 /* Project object */;
+}
