@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9173A3E1623FE61006A0235 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9173A3D1623FE61006A0235 /* Default.png */; };
+		A9173A441623FEFD006A0235 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9173A431623FEFD006A0235 /* icon.png */; };
+		A9546AA71636B23C0029FD60 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A671636B23C0029FD60 /* ILColorPickerView.m */; };
+		A9546AA81636B23C0029FD60 /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A691636B23C0029FD60 /* ILHuePickerView.m */; };
+		A9546AA91636B23C0029FD60 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A6B1636B23C0029FD60 /* ILSaturationBrightnessPickerView.m */; };
+		A9546AAA1636B23C0029FD60 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A6D1636B23C0029FD60 /* ILView.m */; };
+		A9546AAB1636B23C0029FD60 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A6F1636B23C0029FD60 /* UIColor+GetHSB.m */; };
+		A9546AAC1636B23C0029FD60 /* ILColorPickerDualExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A721636B23C0029FD60 /* ILColorPickerDualExampleController.m */; };
+		A9546AAD1636B23C0029FD60 /* ILColorPickerDualExampleController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9546A731636B23C0029FD60 /* ILColorPickerDualExampleController~ipad.xib */; };
+		A9546AAE1636B23C0029FD60 /* ILColorPickerDualExampleController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9546A741636B23C0029FD60 /* ILColorPickerDualExampleController~iphone.xib */; };
+		A9546AAF1636B23C0029FD60 /* DrawingToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A771636B23C0029FD60 /* DrawingToolVC.m */; };
+		A9546AB01636B23C0029FD60 /* DrawingToolVC~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9546A781636B23C0029FD60 /* DrawingToolVC~ipad.xib */; };
+		A9546AB11636B23C0029FD60 /* DrawingToolVC~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9546A791636B23C0029FD60 /* DrawingToolVC~iphone.xib */; };
+		A9546AB21636B23C0029FD60 /* DrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9546A7C1636B23C0029FD60 /* DrawLineView.m */; };
+		A9546AB31636B23C0029FD60 /* BGColor.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A7F1636B23C0029FD60 /* BGColor.png */; };
+		A9546AB41636B23C0029FD60 /* BGPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A801636B23C0029FD60 /* BGPattern.png */; };
+		A9546AB51636B23C0029FD60 /* CellBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A811636B23C0029FD60 /* CellBG.png */; };
+		A9546AB61636B23C0029FD60 /* MainBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A821636B23C0029FD60 /* MainBG.png */; };
+		A9546AB71636B23C0029FD60 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A841636B23C0029FD60 /* Back.png */; };
+		A9546AB81636B23C0029FD60 /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A851636B23C0029FD60 /* Camera.png */; };
+		A9546AB91636B23C0029FD60 /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A861636B23C0029FD60 /* Cancel.png */; };
+		A9546ABA1636B23C0029FD60 /* CancelView.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A871636B23C0029FD60 /* CancelView.png */; };
+		A9546ABB1636B23C0029FD60 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A881636B23C0029FD60 /* Checkmark.png */; };
+		A9546ABC1636B23C0029FD60 /* Color.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A891636B23C0029FD60 /* Color.png */; };
+		A9546ABD1636B23C0029FD60 /* ColorLine.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8A1636B23C0029FD60 /* ColorLine.png */; };
+		A9546ABE1636B23C0029FD60 /* Draw.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8B1636B23C0029FD60 /* Draw.png */; };
+		A9546ABF1636B23C0029FD60 /* Drawing.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8C1636B23C0029FD60 /* Drawing.png */; };
+		A9546AC01636B23C0029FD60 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8D1636B23C0029FD60 /* Eraser.png */; };
+		A9546AC11636B23C0029FD60 /* Font.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8E1636B23C0029FD60 /* Font.png */; };
+		A9546AC21636B23C0029FD60 /* InArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A8F1636B23C0029FD60 /* InArrow.png */; };
+		A9546AC31636B23C0029FD60 /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A901636B23C0029FD60 /* Next.png */; };
+		A9546AC41636B23C0029FD60 /* OutArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A911636B23C0029FD60 /* OutArrow.png */; };
+		A9546AC51636B23C0029FD60 /* PhotoLib.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A921636B23C0029FD60 /* PhotoLib.png */; };
+		A9546AC71636B23C0029FD60 /* RedCircle1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A941636B23C0029FD60 /* RedCircle1.png */; };
+		A9546AC81636B23C0029FD60 /* Redo.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A951636B23C0029FD60 /* Redo.png */; };
+		A9546AC91636B23C0029FD60 /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A961636B23C0029FD60 /* Save.png */; };
+		A9546ACA1636B23C0029FD60 /* Share.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A971636B23C0029FD60 /* Share.png */; };
+		A9546ACB1636B23C0029FD60 /* SideStripInBig.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A981636B23C0029FD60 /* SideStripInBig.png */; };
+		A9546ACC1636B23C0029FD60 /* Strip.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A991636B23C0029FD60 /* Strip.png */; };
+		A9546ACD1636B23C0029FD60 /* Style.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9A1636B23C0029FD60 /* Style.png */; };
+		A9546ACE1636B23C0029FD60 /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9B1636B23C0029FD60 /* Text.png */; };
+		A9546ACF1636B23C0029FD60 /* TextBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9C1636B23C0029FD60 /* TextBG.png */; };
+		A9546AD01636B23C0029FD60 /* Uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9D1636B23C0029FD60 /* Uncheck.png */; };
+		A9546AD11636B23C0029FD60 /* Undo.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9E1636B23C0029FD60 /* Undo.png */; };
+		A9546AD21636B23C0029FD60 /* Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546A9F1636B23C0029FD60 /* Wallpaper.png */; };
+		A9546AD31636B23C0029FD60 /* SliderBlack~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA11636B23C0029FD60 /* SliderBlack~ipad.png */; };
+		A9546AD41636B23C0029FD60 /* SliderBlack~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA21636B23C0029FD60 /* SliderBlack~iphone.png */; };
+		A9546AD51636B23C0029FD60 /* SliderThumb~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA31636B23C0029FD60 /* SliderThumb~ipad.png */; };
+		A9546AD61636B23C0029FD60 /* SliderThumb~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA41636B23C0029FD60 /* SliderThumb~iphone.png */; };
+		A9546AD71636B23C0029FD60 /* SliderYellow~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA51636B23C0029FD60 /* SliderYellow~ipad.png */; };
+		A9546AD81636B23C0029FD60 /* SliderYellow~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A9546AA61636B23C0029FD60 /* SliderYellow~iphone.png */; };
+		A980264E161E9EC7009BD152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980264D161E9EC7009BD152 /* UIKit.framework */; };
+		A9802650161E9EC7009BD152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A980264F161E9EC7009BD152 /* Foundation.framework */; };
+		A9802652161E9EC7009BD152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9802651161E9EC7009BD152 /* CoreGraphics.framework */; };
+		A9802658161E9EC8009BD152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9802656161E9EC8009BD152 /* InfoPlist.strings */; };
+		A980265A161E9EC8009BD152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9802659161E9EC8009BD152 /* main.m */; };
+		A980265E161E9EC8009BD152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A980265D161E9EC8009BD152 /* AppDelegate.m */; };
+		A9802662161E9EC9009BD152 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9802661161E9EC9009BD152 /* Default@2x.png */; };
+		A9802664161E9EC9009BD152 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9802663161E9EC9009BD152 /* Default-568h@2x.png */; };
+		A9802667161E9EC9009BD152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9802666161E9EC9009BD152 /* ViewController.m */; };
+		A980266A161E9EC9009BD152 /* ViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9802668161E9EC9009BD152 /* ViewController~iphone.xib */; };
+		A980266D161E9EC9009BD152 /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A980266B161E9EC9009BD152 /* ViewController~ipad.xib */; };
+		A9A852F618616AC400922241 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A852F518616AC400922241 /* Images.xcassets */; };
+		A9A8530618616CD900922241 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852F818616CD900922241 /* Icon-60.png */; };
+		A9A8530718616CD900922241 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852F918616CD900922241 /* Icon-60@2x.png */; };
+		A9A8530818616CD900922241 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FA18616CD900922241 /* Icon-72.png */; };
+		A9A8530918616CD900922241 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FB18616CD900922241 /* Icon-72@2x.png */; };
+		A9A8530A18616CD900922241 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FC18616CD900922241 /* Icon-76.png */; };
+		A9A8530B18616CD900922241 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FD18616CD900922241 /* Icon-76@2x.png */; };
+		A9A8530C18616CD900922241 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FE18616CD900922241 /* Icon-Small-50.png */; };
+		A9A8530D18616CD900922241 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A852FF18616CD900922241 /* Icon-Small-50@2x.png */; };
+		A9A8530E18616CD900922241 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530018616CD900922241 /* Icon-Small.png */; };
+		A9A8530F18616CD900922241 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530118616CD900922241 /* Icon-Small@2x.png */; };
+		A9A8531018616CD900922241 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530218616CD900922241 /* Icon-Spotlight-40.png */; };
+		A9A8531118616CD900922241 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530318616CD900922241 /* Icon-Spotlight-40@2x.png */; };
+		A9A8531218616CD900922241 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530418616CD900922241 /* Icon.png */; };
+		A9A8531318616CD900922241 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A8530518616CD900922241 /* Icon@2x.png */; };
+		A9F1E5AC1855BCD900CDA7B2 /* MainBG2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F1E5AB1855BCD900CDA7B2 /* MainBG2.png */; };
+		B526CCDC1965A54900D0094D /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = B526CCDB1965A54900D0094D /* check.png */; };
+		B526CCDF1965D5DF00D0094D /* logosplash.png in Resources */ = {isa = PBXBuildFile; fileRef = B526CCDE1965D5DF00D0094D /* logosplash.png */; };
+		B526CCE11965D68A00D0094D /* logosplash2.png in Resources */ = {isa = PBXBuildFile; fileRef = B526CCE01965D68A00D0094D /* logosplash2.png */; };
+		B547B220196B008C0076C44B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B547B21F196B008C0076C44B /* Images.xcassets */; };
+		B5F9506019631B9400ADC535 /* logostamp.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F9505F19631B9400ADC535 /* logostamp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9128CF1183C8EC60097F436 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		A9173A3D1623FE61006A0235 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9173A431623FEFD006A0235 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A9546A661636B23C0029FD60 /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerView.h; sourceTree = "<group>"; };
+		A9546A671636B23C0029FD60 /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerView.m; sourceTree = "<group>"; };
+		A9546A681636B23C0029FD60 /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILHuePickerView.h; sourceTree = "<group>"; };
+		A9546A691636B23C0029FD60 /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILHuePickerView.m; sourceTree = "<group>"; };
+		A9546A6A1636B23C0029FD60 /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		A9546A6B1636B23C0029FD60 /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		A9546A6C1636B23C0029FD60 /* ILView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILView.h; sourceTree = "<group>"; };
+		A9546A6D1636B23C0029FD60 /* ILView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILView.m; sourceTree = "<group>"; };
+		A9546A6E1636B23C0029FD60 /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetHSB.h"; sourceTree = "<group>"; };
+		A9546A6F1636B23C0029FD60 /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetHSB.m"; sourceTree = "<group>"; };
+		A9546A711636B23C0029FD60 /* ILColorPickerDualExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerDualExampleController.h; sourceTree = "<group>"; };
+		A9546A721636B23C0029FD60 /* ILColorPickerDualExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerDualExampleController.m; sourceTree = "<group>"; };
+		A9546A731636B23C0029FD60 /* ILColorPickerDualExampleController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ILColorPickerDualExampleController~ipad.xib"; sourceTree = "<group>"; };
+		A9546A741636B23C0029FD60 /* ILColorPickerDualExampleController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ILColorPickerDualExampleController~iphone.xib"; sourceTree = "<group>"; };
+		A9546A761636B23C0029FD60 /* DrawingToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingToolVC.h; sourceTree = "<group>"; };
+		A9546A771636B23C0029FD60 /* DrawingToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingToolVC.m; sourceTree = "<group>"; };
+		A9546A781636B23C0029FD60 /* DrawingToolVC~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DrawingToolVC~ipad.xib"; sourceTree = "<group>"; };
+		A9546A791636B23C0029FD60 /* DrawingToolVC~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DrawingToolVC~iphone.xib"; sourceTree = "<group>"; };
+		A9546A7B1636B23C0029FD60 /* DrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLineView.h; sourceTree = "<group>"; };
+		A9546A7C1636B23C0029FD60 /* DrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLineView.m; sourceTree = "<group>"; };
+		A9546A7F1636B23C0029FD60 /* BGColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGColor.png; sourceTree = "<group>"; };
+		A9546A801636B23C0029FD60 /* BGPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGPattern.png; sourceTree = "<group>"; };
+		A9546A811636B23C0029FD60 /* CellBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBG.png; sourceTree = "<group>"; };
+		A9546A821636B23C0029FD60 /* MainBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBG.png; sourceTree = "<group>"; };
+		A9546A841636B23C0029FD60 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		A9546A851636B23C0029FD60 /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		A9546A861636B23C0029FD60 /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cancel.png; sourceTree = "<group>"; };
+		A9546A871636B23C0029FD60 /* CancelView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelView.png; sourceTree = "<group>"; };
+		A9546A881636B23C0029FD60 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
+		A9546A891636B23C0029FD60 /* Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color.png; sourceTree = "<group>"; };
+		A9546A8A1636B23C0029FD60 /* ColorLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorLine.png; sourceTree = "<group>"; };
+		A9546A8B1636B23C0029FD60 /* Draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Draw.png; sourceTree = "<group>"; };
+		A9546A8C1636B23C0029FD60 /* Drawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drawing.png; sourceTree = "<group>"; };
+		A9546A8D1636B23C0029FD60 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		A9546A8E1636B23C0029FD60 /* Font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Font.png; sourceTree = "<group>"; };
+		A9546A8F1636B23C0029FD60 /* InArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InArrow.png; sourceTree = "<group>"; };
+		A9546A901636B23C0029FD60 /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Next.png; sourceTree = "<group>"; };
+		A9546A911636B23C0029FD60 /* OutArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutArrow.png; sourceTree = "<group>"; };
+		A9546A921636B23C0029FD60 /* PhotoLib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotoLib.png; sourceTree = "<group>"; };
+		A9546A941636B23C0029FD60 /* RedCircle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle1.png; sourceTree = "<group>"; };
+		A9546A951636B23C0029FD60 /* Redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Redo.png; sourceTree = "<group>"; };
+		A9546A961636B23C0029FD60 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
+		A9546A971636B23C0029FD60 /* Share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Share.png; sourceTree = "<group>"; };
+		A9546A981636B23C0029FD60 /* SideStripInBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideStripInBig.png; sourceTree = "<group>"; };
+		A9546A991636B23C0029FD60 /* Strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strip.png; sourceTree = "<group>"; };
+		A9546A9A1636B23C0029FD60 /* Style.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Style.png; sourceTree = "<group>"; };
+		A9546A9B1636B23C0029FD60 /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
+		A9546A9C1636B23C0029FD60 /* TextBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextBG.png; sourceTree = "<group>"; };
+		A9546A9D1636B23C0029FD60 /* Uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uncheck.png; sourceTree = "<group>"; };
+		A9546A9E1636B23C0029FD60 /* Undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Undo.png; sourceTree = "<group>"; };
+		A9546A9F1636B23C0029FD60 /* Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wallpaper.png; sourceTree = "<group>"; };
+		A9546AA11636B23C0029FD60 /* SliderBlack~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderBlack~ipad.png"; sourceTree = "<group>"; };
+		A9546AA21636B23C0029FD60 /* SliderBlack~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderBlack~iphone.png"; sourceTree = "<group>"; };
+		A9546AA31636B23C0029FD60 /* SliderThumb~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb~ipad.png"; sourceTree = "<group>"; };
+		A9546AA41636B23C0029FD60 /* SliderThumb~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb~iphone.png"; sourceTree = "<group>"; };
+		A9546AA51636B23C0029FD60 /* SliderYellow~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderYellow~ipad.png"; sourceTree = "<group>"; };
+		A9546AA61636B23C0029FD60 /* SliderYellow~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderYellow~iphone.png"; sourceTree = "<group>"; };
+		A9802649161E9EC7009BD152 /* DrawingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A980264D161E9EC7009BD152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A980264F161E9EC7009BD152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9802651161E9EC7009BD152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9802655161E9EC8009BD152 /* DrawingTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawingTool-Info.plist"; sourceTree = "<group>"; };
+		A9802657161E9EC8009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9802659161E9EC8009BD152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A980265B161E9EC8009BD152 /* DrawingTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawingTool-Prefix.pch"; sourceTree = "<group>"; };
+		A980265C161E9EC8009BD152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A980265D161E9EC8009BD152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9802661161E9EC9009BD152 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9802663161E9EC9009BD152 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A9802665161E9EC9009BD152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9802666161E9EC9009BD152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9802669161E9EC9009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~iphone.xib"; sourceTree = "<group>"; };
+		A980266C161E9EC9009BD152 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~ipad.xib"; sourceTree = "<group>"; };
+		A9A852F518616AC400922241 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DrawingTool/Images.xcassets; sourceTree = "<group>"; };
+		A9A852F818616CD900922241 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		A9A852F918616CD900922241 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		A9A852FA18616CD900922241 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A9A852FB18616CD900922241 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		A9A852FC18616CD900922241 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		A9A852FD18616CD900922241 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		A9A852FE18616CD900922241 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A9A852FF18616CD900922241 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A9A8530018616CD900922241 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A9A8530118616CD900922241 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A9A8530218616CD900922241 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		A9A8530318616CD900922241 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		A9A8530418616CD900922241 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A9A8530518616CD900922241 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A9F1E5AB1855BCD900CDA7B2 /* MainBG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainBG2.png; sourceTree = "<group>"; };
+		B526CCD619649E3800D0094D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B526CCD719649E8500D0094D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		B526CCD819649F4A00D0094D /* 1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536x2048.png; sourceTree = "<group>"; };
+		B526CCD919649FAD00D0094D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B526CCDA1964A02D00D0094D /* Default-portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-portrait.png"; sourceTree = "<group>"; };
+		B526CCDB1965A54900D0094D /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = "PhotoTool/DrawingTool/Resource Images/PhotoToolImages/check.png"; sourceTree = "<group>"; };
+		B526CCDE1965D5DF00D0094D /* logosplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosplash.png; sourceTree = "<group>"; };
+		B526CCE01965D68A00D0094D /* logosplash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosplash2.png; sourceTree = "<group>"; };
+		B547B21F196B008C0076C44B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Autographs/Images.xcassets; sourceTree = "<group>"; };
+		B5F9505F19631B9400ADC535 /* logostamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logostamp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9802646161E9EC7009BD152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980264E161E9EC7009BD152 /* UIKit.framework in Frameworks */,
+				A9802650161E9EC7009BD152 /* Foundation.framework in Frameworks */,
+				A9802652161E9EC7009BD152 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9128CEF183C8E9E0097F436 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A9128CF1183C8EC60097F436 /* Constant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A9546A631636B23C0029FD60 /* DrawingTool */ = {
+			isa = PBXGroup;
+			children = (
+				A9128CEF183C8E9E0097F436 /* Constant */,
+				A9546A751636B23C0029FD60 /* DrawingToolVC */,
+				A9546A641636B23C0029FD60 /* Color Picker */,
+				A9546A7A1636B23C0029FD60 /* DrawLineView */,
+				A9546A7D1636B23C0029FD60 /* Resource Images */,
+			);
+			path = DrawingTool;
+			sourceTree = "<group>";
+		};
+		A9546A641636B23C0029FD60 /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A651636B23C0029FD60 /* ColorPickerClass */,
+				A9546A701636B23C0029FD60 /* ColorPickerVC */,
+			);
+			path = "Color Picker";
+			sourceTree = "<group>";
+		};
+		A9546A651636B23C0029FD60 /* ColorPickerClass */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A661636B23C0029FD60 /* ILColorPickerView.h */,
+				A9546A671636B23C0029FD60 /* ILColorPickerView.m */,
+				A9546A681636B23C0029FD60 /* ILHuePickerView.h */,
+				A9546A691636B23C0029FD60 /* ILHuePickerView.m */,
+				A9546A6A1636B23C0029FD60 /* ILSaturationBrightnessPickerView.h */,
+				A9546A6B1636B23C0029FD60 /* ILSaturationBrightnessPickerView.m */,
+				A9546A6C1636B23C0029FD60 /* ILView.h */,
+				A9546A6D1636B23C0029FD60 /* ILView.m */,
+				A9546A6E1636B23C0029FD60 /* UIColor+GetHSB.h */,
+				A9546A6F1636B23C0029FD60 /* UIColor+GetHSB.m */,
+			);
+			path = ColorPickerClass;
+			sourceTree = "<group>";
+		};
+		A9546A701636B23C0029FD60 /* ColorPickerVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A711636B23C0029FD60 /* ILColorPickerDualExampleController.h */,
+				A9546A721636B23C0029FD60 /* ILColorPickerDualExampleController.m */,
+				A9546A731636B23C0029FD60 /* ILColorPickerDualExampleController~ipad.xib */,
+				A9546A741636B23C0029FD60 /* ILColorPickerDualExampleController~iphone.xib */,
+			);
+			path = ColorPickerVC;
+			sourceTree = "<group>";
+		};
+		A9546A751636B23C0029FD60 /* DrawingToolVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A761636B23C0029FD60 /* DrawingToolVC.h */,
+				A9546A771636B23C0029FD60 /* DrawingToolVC.m */,
+				A9546A781636B23C0029FD60 /* DrawingToolVC~ipad.xib */,
+				B526CCE01965D68A00D0094D /* logosplash2.png */,
+				A9546A791636B23C0029FD60 /* DrawingToolVC~iphone.xib */,
+				B526CCDE1965D5DF00D0094D /* logosplash.png */,
+			);
+			path = DrawingToolVC;
+			sourceTree = "<group>";
+		};
+		A9546A7A1636B23C0029FD60 /* DrawLineView */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A7B1636B23C0029FD60 /* DrawLineView.h */,
+				A9546A7C1636B23C0029FD60 /* DrawLineView.m */,
+			);
+			path = DrawLineView;
+			sourceTree = "<group>";
+		};
+		A9546A7D1636B23C0029FD60 /* Resource Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9A852F718616CD900922241 /* Icons */,
+				A9546A7E1636B23C0029FD60 /* BGImages */,
+				A9546A831636B23C0029FD60 /* PhotoToolImages */,
+				A9546AA01636B23C0029FD60 /* Slider */,
+			);
+			path = "Resource Images";
+			sourceTree = "<group>";
+		};
+		A9546A7E1636B23C0029FD60 /* BGImages */ = {
+			isa = PBXGroup;
+			children = (
+				A9F1E5AB1855BCD900CDA7B2 /* MainBG2.png */,
+				A9546A7F1636B23C0029FD60 /* BGColor.png */,
+				A9546A801636B23C0029FD60 /* BGPattern.png */,
+				A9546A811636B23C0029FD60 /* CellBG.png */,
+				A9546A821636B23C0029FD60 /* MainBG.png */,
+			);
+			path = BGImages;
+			sourceTree = "<group>";
+		};
+		A9546A831636B23C0029FD60 /* PhotoToolImages */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9505F19631B9400ADC535 /* logostamp.png */,
+				A9546A841636B23C0029FD60 /* Back.png */,
+				A9546A851636B23C0029FD60 /* Camera.png */,
+				A9546A861636B23C0029FD60 /* Cancel.png */,
+				A9546A871636B23C0029FD60 /* CancelView.png */,
+				A9546A881636B23C0029FD60 /* Checkmark.png */,
+				A9546A891636B23C0029FD60 /* Color.png */,
+				A9546A8A1636B23C0029FD60 /* ColorLine.png */,
+				A9546A8B1636B23C0029FD60 /* Draw.png */,
+				A9546A8C1636B23C0029FD60 /* Drawing.png */,
+				A9546A8D1636B23C0029FD60 /* Eraser.png */,
+				A9546A8E1636B23C0029FD60 /* Font.png */,
+				A9546A8F1636B23C0029FD60 /* InArrow.png */,
+				A9546A901636B23C0029FD60 /* Next.png */,
+				A9546A911636B23C0029FD60 /* OutArrow.png */,
+				A9546A921636B23C0029FD60 /* PhotoLib.png */,
+				A9546A941636B23C0029FD60 /* RedCircle1.png */,
+				A9546A951636B23C0029FD60 /* Redo.png */,
+				A9546A961636B23C0029FD60 /* Save.png */,
+				A9546A971636B23C0029FD60 /* Share.png */,
+				A9546A981636B23C0029FD60 /* SideStripInBig.png */,
+				A9546A991636B23C0029FD60 /* Strip.png */,
+				A9546A9A1636B23C0029FD60 /* Style.png */,
+				A9546A9B1636B23C0029FD60 /* Text.png */,
+				A9546A9C1636B23C0029FD60 /* TextBG.png */,
+				A9546A9D1636B23C0029FD60 /* Uncheck.png */,
+				A9546A9E1636B23C0029FD60 /* Undo.png */,
+				A9546A9F1636B23C0029FD60 /* Wallpaper.png */,
+			);
+			path = PhotoToolImages;
+			sourceTree = "<group>";
+		};
+		A9546AA01636B23C0029FD60 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				A9546AA11636B23C0029FD60 /* SliderBlack~ipad.png */,
+				A9546AA21636B23C0029FD60 /* SliderBlack~iphone.png */,
+				A9546AA31636B23C0029FD60 /* SliderThumb~ipad.png */,
+				A9546AA41636B23C0029FD60 /* SliderThumb~iphone.png */,
+				A9546AA51636B23C0029FD60 /* SliderYellow~ipad.png */,
+				A9546AA61636B23C0029FD60 /* SliderYellow~iphone.png */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		A980263E161E9EC5009BD152 = {
+			isa = PBXGroup;
+			children = (
+				B547B21F196B008C0076C44B /* Images.xcassets */,
+				B526CCDB1965A54900D0094D /* check.png */,
+				B526CCDA1964A02D00D0094D /* Default-portrait.png */,
+				B526CCD919649FAD00D0094D /* Default@2x.png */,
+				B526CCD819649F4A00D0094D /* 1536x2048.png */,
+				B526CCD719649E8500D0094D /* Default~ipad.png */,
+				B526CCD619649E3800D0094D /* Default.png */,
+				A9A852F518616AC400922241 /* Images.xcassets */,
+				A9173A431623FEFD006A0235 /* icon.png */,
+				A9802653161E9EC7009BD152 /* Tool */,
+				A9802654161E9EC8009BD152 /* Supporting Files */,
+				A980264C161E9EC7009BD152 /* Frameworks */,
+				A980264A161E9EC7009BD152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A980264A161E9EC7009BD152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9802649161E9EC7009BD152 /* DrawingTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A980264C161E9EC7009BD152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A980264D161E9EC7009BD152 /* UIKit.framework */,
+				A980264F161E9EC7009BD152 /* Foundation.framework */,
+				A9802651161E9EC7009BD152 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9802653161E9EC7009BD152 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A9546A631636B23C0029FD60 /* DrawingTool */,
+				A9802679161EA445009BD152 /* AppDelegate */,
+				A980267A161EA45D009BD152 /* SaveImageVC */,
+			);
+			name = Tool;
+			path = PhotoTool;
+			sourceTree = "<group>";
+		};
+		A9802654161E9EC8009BD152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9802655161E9EC8009BD152 /* DrawingTool-Info.plist */,
+				A9802656161E9EC8009BD152 /* InfoPlist.strings */,
+				A9802659161E9EC8009BD152 /* main.m */,
+				A980265B161E9EC8009BD152 /* DrawingTool-Prefix.pch */,
+				A9173A3D1623FE61006A0235 /* Default.png */,
+				A9802661161E9EC9009BD152 /* Default@2x.png */,
+				A9802663161E9EC9009BD152 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = PhotoTool;
+			sourceTree = "<group>";
+		};
+		A9802679161EA445009BD152 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A980265C161E9EC8009BD152 /* AppDelegate.h */,
+				A980265D161E9EC8009BD152 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A980267A161EA45D009BD152 /* SaveImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9802665161E9EC9009BD152 /* ViewController.h */,
+				A9802666161E9EC9009BD152 /* ViewController.m */,
+				A9802668161E9EC9009BD152 /* ViewController~iphone.xib */,
+				A980266B161E9EC9009BD152 /* ViewController~ipad.xib */,
+			);
+			name = SaveImageVC;
+			sourceTree = "<group>";
+		};
+		A9A852F718616CD900922241 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A9A852F818616CD900922241 /* Icon-60.png */,
+				A9A852F918616CD900922241 /* Icon-60@2x.png */,
+				A9A852FA18616CD900922241 /* Icon-72.png */,
+				A9A852FB18616CD900922241 /* Icon-72@2x.png */,
+				A9A852FC18616CD900922241 /* Icon-76.png */,
+				A9A852FD18616CD900922241 /* Icon-76@2x.png */,
+				A9A852FE18616CD900922241 /* Icon-Small-50.png */,
+				A9A852FF18616CD900922241 /* Icon-Small-50@2x.png */,
+				A9A8530018616CD900922241 /* Icon-Small.png */,
+				A9A8530118616CD900922241 /* Icon-Small@2x.png */,
+				A9A8530218616CD900922241 /* Icon-Spotlight-40.png */,
+				A9A8530318616CD900922241 /* Icon-Spotlight-40@2x.png */,
+				A9A8530418616CD900922241 /* Icon.png */,
+				A9A8530518616CD900922241 /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9802648161E9EC7009BD152 /* Autographs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9802670161E9EC9009BD152 /* Build configuration list for PBXNativeTarget "Autographs" */;
+			buildPhases = (
+				A9802645161E9EC7009BD152 /* Sources */,
+				A9802646161E9EC7009BD152 /* Frameworks */,
+				A9802647161E9EC7009BD152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autographs;
+			productName = PhotoTool;
+			productReference = A9802649161E9EC7009BD152 /* DrawingTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9802640161E9EC6009BD152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = indystar;
+				TargetAttributes = {
+					A9802648161E9EC7009BD152 = {
+						DevelopmentTeam = 489244Q7A5;
+					};
+				};
+			};
+			buildConfigurationList = A9802643161E9EC6009BD152 /* Build configuration list for PBXProject "Indystar Autograph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A980263E161E9EC5009BD152;
+			productRefGroup = A980264A161E9EC7009BD152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9802648161E9EC7009BD152 /* Autographs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9802647161E9EC7009BD152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9802658161E9EC8009BD152 /* InfoPlist.strings in Resources */,
+				A9802662161E9EC9009BD152 /* Default@2x.png in Resources */,
+				B5F9506019631B9400ADC535 /* logostamp.png in Resources */,
+				A9802664161E9EC9009BD152 /* Default-568h@2x.png in Resources */,
+				A9A8530C18616CD900922241 /* Icon-Small-50.png in Resources */,
+				A9A8531218616CD900922241 /* Icon.png in Resources */,
+				A980266A161E9EC9009BD152 /* ViewController~iphone.xib in Resources */,
+				A980266D161E9EC9009BD152 /* ViewController~ipad.xib in Resources */,
+				A9A8530D18616CD900922241 /* Icon-Small-50@2x.png in Resources */,
+				A9173A3E1623FE61006A0235 /* Default.png in Resources */,
+				A9A8530E18616CD900922241 /* Icon-Small.png in Resources */,
+				A9173A441623FEFD006A0235 /* icon.png in Resources */,
+				A9546AAD1636B23C0029FD60 /* ILColorPickerDualExampleController~ipad.xib in Resources */,
+				A9546AAE1636B23C0029FD60 /* ILColorPickerDualExampleController~iphone.xib in Resources */,
+				A9546AB01636B23C0029FD60 /* DrawingToolVC~ipad.xib in Resources */,
+				A9A8531318616CD900922241 /* Icon@2x.png in Resources */,
+				B526CCE11965D68A00D0094D /* logosplash2.png in Resources */,
+				A9546AB11636B23C0029FD60 /* DrawingToolVC~iphone.xib in Resources */,
+				A9A8530818616CD900922241 /* Icon-72.png in Resources */,
+				A9546AB31636B23C0029FD60 /* BGColor.png in Resources */,
+				A9546AB41636B23C0029FD60 /* BGPattern.png in Resources */,
+				A9546AB51636B23C0029FD60 /* CellBG.png in Resources */,
+				A9546AB61636B23C0029FD60 /* MainBG.png in Resources */,
+				A9546AB71636B23C0029FD60 /* Back.png in Resources */,
+				B547B220196B008C0076C44B /* Images.xcassets in Resources */,
+				A9A8530A18616CD900922241 /* Icon-76.png in Resources */,
+				A9A8531018616CD900922241 /* Icon-Spotlight-40.png in Resources */,
+				A9546AB81636B23C0029FD60 /* Camera.png in Resources */,
+				A9546AB91636B23C0029FD60 /* Cancel.png in Resources */,
+				A9546ABA1636B23C0029FD60 /* CancelView.png in Resources */,
+				A9546ABB1636B23C0029FD60 /* Checkmark.png in Resources */,
+				A9546ABC1636B23C0029FD60 /* Color.png in Resources */,
+				A9546ABD1636B23C0029FD60 /* ColorLine.png in Resources */,
+				A9A8531118616CD900922241 /* Icon-Spotlight-40@2x.png in Resources */,
+				A9546ABE1636B23C0029FD60 /* Draw.png in Resources */,
+				A9546ABF1636B23C0029FD60 /* Drawing.png in Resources */,
+				A9546AC01636B23C0029FD60 /* Eraser.png in Resources */,
+				A9A8530F18616CD900922241 /* Icon-Small@2x.png in Resources */,
+				A9A8530718616CD900922241 /* Icon-60@2x.png in Resources */,
+				A9546AC11636B23C0029FD60 /* Font.png in Resources */,
+				A9546AC21636B23C0029FD60 /* InArrow.png in Resources */,
+				A9546AC31636B23C0029FD60 /* Next.png in Resources */,
+				A9546AC41636B23C0029FD60 /* OutArrow.png in Resources */,
+				A9546AC51636B23C0029FD60 /* PhotoLib.png in Resources */,
+				A9A8530918616CD900922241 /* Icon-72@2x.png in Resources */,
+				A9546AC71636B23C0029FD60 /* RedCircle1.png in Resources */,
+				A9546AC81636B23C0029FD60 /* Redo.png in Resources */,
+				A9546AC91636B23C0029FD60 /* Save.png in Resources */,
+				A9546ACA1636B23C0029FD60 /* Share.png in Resources */,
+				A9546ACB1636B23C0029FD60 /* SideStripInBig.png in Resources */,
+				B526CCDC1965A54900D0094D /* check.png in Resources */,
+				A9546ACC1636B23C0029FD60 /* Strip.png in Resources */,
+				A9A8530B18616CD900922241 /* Icon-76@2x.png in Resources */,
+				A9546ACD1636B23C0029FD60 /* Style.png in Resources */,
+				A9546ACE1636B23C0029FD60 /* Text.png in Resources */,
+				A9546ACF1636B23C0029FD60 /* TextBG.png in Resources */,
+				A9546AD01636B23C0029FD60 /* Uncheck.png in Resources */,
+				A9546AD11636B23C0029FD60 /* Undo.png in Resources */,
+				A9546AD21636B23C0029FD60 /* Wallpaper.png in Resources */,
+				A9546AD31636B23C0029FD60 /* SliderBlack~ipad.png in Resources */,
+				A9546AD41636B23C0029FD60 /* SliderBlack~iphone.png in Resources */,
+				A9A852F618616AC400922241 /* Images.xcassets in Resources */,
+				A9A8530618616CD900922241 /* Icon-60.png in Resources */,
+				A9546AD51636B23C0029FD60 /* SliderThumb~ipad.png in Resources */,
+				A9546AD61636B23C0029FD60 /* SliderThumb~iphone.png in Resources */,
+				A9546AD71636B23C0029FD60 /* SliderYellow~ipad.png in Resources */,
+				A9F1E5AC1855BCD900CDA7B2 /* MainBG2.png in Resources */,
+				A9546AD81636B23C0029FD60 /* SliderYellow~iphone.png in Resources */,
+				B526CCDF1965D5DF00D0094D /* logosplash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9802645161E9EC7009BD152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A980265A161E9EC8009BD152 /* main.m in Sources */,
+				A980265E161E9EC8009BD152 /* AppDelegate.m in Sources */,
+				A9802667161E9EC9009BD152 /* ViewController.m in Sources */,
+				A9546AA71636B23C0029FD60 /* ILColorPickerView.m in Sources */,
+				A9546AA81636B23C0029FD60 /* ILHuePickerView.m in Sources */,
+				A9546AA91636B23C0029FD60 /* ILSaturationBrightnessPickerView.m in Sources */,
+				A9546AAA1636B23C0029FD60 /* ILView.m in Sources */,
+				A9546AAB1636B23C0029FD60 /* UIColor+GetHSB.m in Sources */,
+				A9546AAC1636B23C0029FD60 /* ILColorPickerDualExampleController.m in Sources */,
+				A9546AAF1636B23C0029FD60 /* DrawingToolVC.m in Sources */,
+				A9546AB21636B23C0029FD60 /* DrawLineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9802656161E9EC8009BD152 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9802657161E9EC8009BD152 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9802668161E9EC9009BD152 /* ViewController~iphone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9802669161E9EC9009BD152 /* en */,
+			);
+			name = "ViewController~iphone.xib";
+			sourceTree = "<group>";
+		};
+		A980266B161E9EC9009BD152 /* ViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A980266C161E9EC9009BD152 /* en */,
+			);
+			name = "ViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A980266E161E9EC9009BD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "E6774C9A-F10D-4270-873E-80D4E6ACC67E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A980266F161E9EC9009BD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E6774C9A-F10D-4270-873E-80D4E6ACC67E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9802671161E9EC9009BD152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTool/DrawingTool-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTool/DrawingTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = DrawingTool;
+				PROVISIONING_PROFILE = "E6774C9A-F10D-4270-873E-80D4E6ACC67E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9802672161E9EC9009BD152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: The Indianapolis Star (489244Q7A5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoTool/DrawingTool-Prefix.pch";
+				INFOPLIST_FILE = "PhotoTool/DrawingTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = DrawingTool;
+				PROVISIONING_PROFILE = "E6774C9A-F10D-4270-873E-80D4E6ACC67E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9802643161E9EC6009BD152 /* Build configuration list for PBXProject "Indystar Autograph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A980266E161E9EC9009BD152 /* Debug */,
+				A980266F161E9EC9009BD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9802670161E9EC9009BD152 /* Build configuration list for PBXNativeTarget "Autographs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9802671161E9EC9009BD152 /* Debug */,
+				A9802672161E9EC9009BD152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9802640161E9EC6009BD152 /* Project object */;
+}

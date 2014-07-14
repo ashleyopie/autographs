@@ -1,16 +1,17 @@
 //
 //  AppDelegate.m
-//  PhotoTool
+//  DrawingTool
 //
-//  Created by indianic on 05/10/12.
-//  Copyright (c) 2012 indianic. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 #import "ViewController.h"
 
+
 @implementation AppDelegate
+
+@synthesize NavigationControllerObj;
 
 - (void)dealloc
 {
@@ -21,17 +22,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
-    } else {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
-    }
-    self.window.rootViewController = self.viewController;
+    [NSThread sleepForTimeInterval:2]; //add 5 seconds longer.
+    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];//Compalsary for ios 6
+    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.NavigationControllerObj = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
+    
+    //Set NSUserDefault For Tips For DrawingTool
+    [[NSUserDefaults standardUserDefaults]setObject:@"Yes" forKey:@"Tips"];
+    
+    self.window.rootViewController = self.NavigationControllerObj;
+    self.NavigationControllerObj.navigationBarHidden=TRUE;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+#pragma mark - Orientation Method
+
+- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+#pragma mark - Other Method
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
