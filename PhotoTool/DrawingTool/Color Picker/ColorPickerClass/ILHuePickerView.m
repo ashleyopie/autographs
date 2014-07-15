@@ -1,9 +1,10 @@
-
-/********************************************************************************\
- *
- * File Name       ILHuePicker.m
- *
- \********************************************************************************/
+//
+//  ILHuePicker.m
+//  Indystar Autograph
+//
+//  Created by Indystar on 6/30/14.
+//  Copyright (c) 2014 ___Indystar___. All rights reserved.
+//
 
 #import "ILHuePickerView.h"
 #import "UIColor+GetHSB.h"

@@ -1,9 +1,10 @@
-
-/********************************************************************************\
- *
- * File Name       DrawingToolVC.h
- *
- \********************************************************************************/
+//
+//  DrawingToolVC.h
+//  Indystar Autograph
+//
+//  Created by Mary Ashley Opie on 6/30/14.
+//  Copyright (c) 2014 ___Ashleyopie___. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 #import "Constant.h"

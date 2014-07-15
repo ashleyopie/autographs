@@ -1,10 +1,10 @@
-
-/********************************************************************************\
- *
- * File Name       UIColor+GetHSB.m
- *
- \********************************************************************************/
-
+//
+//  UIColor+GetHSB.m
+//  Indystar Autograph
+//
+//  Created by Indystar on 6/30/14.
+//  Copyright (c) 2014 ___Indystar___. All rights reserved.
+//
 
 #import "UIColor+GetHSB.h"
 

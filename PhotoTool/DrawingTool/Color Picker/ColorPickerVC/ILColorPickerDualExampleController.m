@@ -1,9 +1,10 @@
-
-/********************************************************************************\
- *
- * File Name       ILColorPickerExampleViewController.m
- *
- \********************************************************************************/
+//
+//  ILColorPickerExampleViewController.m
+//  Indystar Autograph
+//
+//  Created by Indystar on 6/30/14.
+//  Copyright (c) 2014 ___Indystar___. All rights reserved.
+//
 
 #import "ILColorPickerDualExampleController.h"
 #import "DrawingToolVC.h"

@@ -1,9 +1,10 @@
-
-/********************************************************************************\
- *
- * File Name       DrawingToolVC.m
- *
- \********************************************************************************/
+ //
+ //  DrawingToolVC.m
+ //  Indystar Autograph
+ //
+ //  Created by Mary Ashley Opie on 6/30/14.
+ //  Copyright (c) 2014 ___Ashleyopie___. All rights reserved.
+ //
 
 #import "DrawingToolVC.h"
 #import "DrawLineView.h"
